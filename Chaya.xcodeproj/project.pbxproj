@@ -3,19 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D127EDD245AF4420020E3FF /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D127EDC245AF4420020E3FF /* TaskListViewController.swift */; };
+		0D14C71A2456D855009D4E2F /* CustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14C7192456D855009D4E2F /* CustomeTableViewCell.swift */; };
+		0D806D1A244F7F8A0071E10A /* ActiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D806D19244F7F8A0071E10A /* ActiveListViewController.swift */; };
+		0D806D1C244F817D0071E10A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D806D1B244F817C0071E10A /* Item.swift */; };
+		0DB1C6DA244A853B005CD4B3 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB1C6D9244A853B005CD4B3 /* Onboarding.storyboard */; };
+		0DB1C6DC244A854F005CD4B3 /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1C6DB244A854F005CD4B3 /* OnboardingContentViewController.swift */; };
+		0DB1C6DE244A857A005CD4B3 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1C6DD244A857A005CD4B3 /* OnboardingPageViewController.swift */; };
+		0DB1C6E0244A8595005CD4B3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1C6DF244A8595005CD4B3 /* OnboardingViewController.swift */; };
+		0DCA21D9245B20F80093155A /* NewTaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA21D8245B20F80093155A /* NewTaskListViewController.swift */; };
+		0DCA21DB245B27610093155A /* AddNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA21DA245B27610093155A /* AddNewItemViewController.swift */; };
+		0DCFAADD244D619900442AE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFAADC244D619900442AE6 /* HomeViewController.swift */; };
 		0DE9374E244921E900EC702B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9374D244921E900EC702B /* AppDelegate.swift */; };
 		0DE93750244921E900EC702B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9374F244921E900EC702B /* SceneDelegate.swift */; };
 		0DE93752244921E900EC702B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE93751244921E900EC702B /* ViewController.swift */; };
 		0DE93755244921E900EC702B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE93753244921E900EC702B /* Main.storyboard */; };
 		0DE937572449220000EC702B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE937562449220000EC702B /* Assets.xcassets */; };
 		0DE9375A2449220000EC702B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE937582449220000EC702B /* LaunchScreen.storyboard */; };
+		0DE937622449270000EC702B /* Catagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937612449270000EC702B /* Catagory.swift */; };
+		0DE937642449272B00EC702B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937632449272B00EC702B /* Task.swift */; };
+		0DE937662449275400EC702B /* IconTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937652449275400EC702B /* IconTableViewController.swift */; };
+		0DE937682449279600EC702B /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937672449279600EC702B /* NewTaskViewController.swift */; };
+		0DE9376A244927F900EC702B /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE93769244927F900EC702B /* TasksTableViewController.swift */; };
+		0DE9376C2449282C00EC702B /* AddCatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9376B2449282C00EC702B /* AddCatagoryViewController.swift */; };
+		36B6977991577CA491B12B9F /* Pods_Chaya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EA24789010F3D1AC9FC076 /* Pods_Chaya.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D127EDC245AF4420020E3FF /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		0D14C7192456D855009D4E2F /* CustomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTableViewCell.swift; sourceTree = "<group>"; };
+		0D806D19244F7F8A0071E10A /* ActiveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveListViewController.swift; sourceTree = "<group>"; };
+		0D806D1B244F817C0071E10A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0DB1C6D9244A853B005CD4B3 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		0DB1C6DB244A854F005CD4B3 /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
+		0DB1C6DD244A857A005CD4B3 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		0DB1C6DF244A8595005CD4B3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		0DCA21D8245B20F80093155A /* NewTaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskListViewController.swift; sourceTree = "<group>"; };
+		0DCA21DA245B27610093155A /* AddNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewController.swift; sourceTree = "<group>"; };
+		0DCFAADC244D619900442AE6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0DE9374A244921E900EC702B /* Chaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE9374D244921E900EC702B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DE9374F244921E900EC702B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +53,15 @@
 		0DE937562449220000EC702B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE937592449220000EC702B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE9375B2449220000EC702B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE937612449270000EC702B /* Catagory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagory.swift; sourceTree = "<group>"; };
+		0DE937632449272B00EC702B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		0DE937652449275400EC702B /* IconTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTableViewController.swift; sourceTree = "<group>"; };
+		0DE937672449279600EC702B /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		0DE93769244927F900EC702B /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
+		0DE9376B2449282C00EC702B /* AddCatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatagoryViewController.swift; sourceTree = "<group>"; };
+		5CFD03B94B3F45EDC63F7ED9 /* Pods-Chaya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaya.release.xcconfig"; path = "Target Support Files/Pods-Chaya/Pods-Chaya.release.xcconfig"; sourceTree = "<group>"; };
+		CC154C56730005C8295B0B9C /* Pods-Chaya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaya.debug.xcconfig"; path = "Target Support Files/Pods-Chaya/Pods-Chaya.debug.xcconfig"; sourceTree = "<group>"; };
+		D2EA24789010F3D1AC9FC076 /* Pods_Chaya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chaya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B6977991577CA491B12B9F /* Pods_Chaya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				0DE9374C244921E900EC702B /* Chaya */,
 				0DE9374B244921E900EC702B /* Products */,
+				CBCC009CB80E590C786D2DE5 /* Pods */,
+				C2CE6F0AC96E555961968C55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +104,42 @@
 				0DE937562449220000EC702B /* Assets.xcassets */,
 				0DE937582449220000EC702B /* LaunchScreen.storyboard */,
 				0DE9375B2449220000EC702B /* Info.plist */,
+				0DE937612449270000EC702B /* Catagory.swift */,
+				0DE937632449272B00EC702B /* Task.swift */,
+				0D806D1B244F817C0071E10A /* Item.swift */,
+				0DE937652449275400EC702B /* IconTableViewController.swift */,
+				0DE937672449279600EC702B /* NewTaskViewController.swift */,
+				0DE93769244927F900EC702B /* TasksTableViewController.swift */,
+				0DE9376B2449282C00EC702B /* AddCatagoryViewController.swift */,
+				0DB1C6D9244A853B005CD4B3 /* Onboarding.storyboard */,
+				0DB1C6DB244A854F005CD4B3 /* OnboardingContentViewController.swift */,
+				0DB1C6DD244A857A005CD4B3 /* OnboardingPageViewController.swift */,
+				0DB1C6DF244A8595005CD4B3 /* OnboardingViewController.swift */,
+				0DCFAADC244D619900442AE6 /* HomeViewController.swift */,
+				0D806D19244F7F8A0071E10A /* ActiveListViewController.swift */,
+				0D127EDC245AF4420020E3FF /* TaskListViewController.swift */,
+				0D14C7192456D855009D4E2F /* CustomeTableViewCell.swift */,
+				0DCA21D8245B20F80093155A /* NewTaskListViewController.swift */,
+				0DCA21DA245B27610093155A /* AddNewItemViewController.swift */,
 			);
 			path = Chaya;
+			sourceTree = "<group>";
+		};
+		C2CE6F0AC96E555961968C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA24789010F3D1AC9FC076 /* Pods_Chaya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBCC009CB80E590C786D2DE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC154C56730005C8295B0B9C /* Pods-Chaya.debug.xcconfig */,
+				5CFD03B94B3F45EDC63F7ED9 /* Pods-Chaya.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DE9375E2449220000EC702B /* Build configuration list for PBXNativeTarget "Chaya" */;
 			buildPhases = (
+				D8272F48A8916B6279BB18EA /* [CP] Check Pods Manifest.lock */,
 				0DE93746244921E900EC702B /* Sources */,
 				0DE93747244921E900EC702B /* Frameworks */,
 				0DE93748244921E900EC702B /* Resources */,
+				FB8B7FF8ECB1A1EBBB2727B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +205,78 @@
 				0DE9375A2449220000EC702B /* LaunchScreen.storyboard in Resources */,
 				0DE937572449220000EC702B /* Assets.xcassets in Resources */,
 				0DE93755244921E900EC702B /* Main.storyboard in Resources */,
+				0DB1C6DA244A853B005CD4B3 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8272F48A8916B6279BB18EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chaya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8B7FF8ECB1A1EBBB2727B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chaya/Pods-Chaya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chaya/Pods-Chaya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chaya/Pods-Chaya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0DE93746244921E900EC702B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D806D1A244F7F8A0071E10A /* ActiveListViewController.swift in Sources */,
+				0DE937662449275400EC702B /* IconTableViewController.swift in Sources */,
+				0DE937682449279600EC702B /* NewTaskViewController.swift in Sources */,
 				0DE93752244921E900EC702B /* ViewController.swift in Sources */,
 				0DE9374E244921E900EC702B /* AppDelegate.swift in Sources */,
+				0DE937642449272B00EC702B /* Task.swift in Sources */,
+				0DB1C6DC244A854F005CD4B3 /* OnboardingContentViewController.swift in Sources */,
+				0DCA21DB245B27610093155A /* AddNewItemViewController.swift in Sources */,
 				0DE93750244921E900EC702B /* SceneDelegate.swift in Sources */,
+				0D14C71A2456D855009D4E2F /* CustomeTableViewCell.swift in Sources */,
+				0DB1C6E0244A8595005CD4B3 /* OnboardingViewController.swift in Sources */,
+				0DE9376A244927F900EC702B /* TasksTableViewController.swift in Sources */,
+				0D806D1C244F817D0071E10A /* Item.swift in Sources */,
+				0DE937622449270000EC702B /* Catagory.swift in Sources */,
+				0DE9376C2449282C00EC702B /* AddCatagoryViewController.swift in Sources */,
+				0DCFAADD244D619900442AE6 /* HomeViewController.swift in Sources */,
+				0D127EDD245AF4420020E3FF /* TaskListViewController.swift in Sources */,
+				0DCA21D9245B20F80093155A /* NewTaskListViewController.swift in Sources */,
+				0DB1C6DE244A857A005CD4B3 /* OnboardingPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +418,7 @@
 		};
 		0DE9375F2449220000EC702B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC154C56730005C8295B0B9C /* Pods-Chaya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +436,7 @@
 		};
 		0DE937602449220000EC702B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFD03B94B3F45EDC63F7ED9 /* Pods-Chaya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
