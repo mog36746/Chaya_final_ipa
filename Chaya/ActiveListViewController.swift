@@ -69,20 +69,11 @@ class ActiveListViewController: UIViewController,UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomeTableViewCell
-        let id = "\(format.string(from: date))-\(item![indexPath.row].id)"
-        
-        cell.titleLable.text = item![indexPath.row].title
-        cell.dateLable.text = "none"
-//        cell.addButton.setBackgroundImage(tasks![indexPath.row].isCompleted == true ? UIImage(systemName: "plus.circle") : UIImage(systemName: "minus.circle"), for: .normal)
-        buttonImage = UIImage(systemName: "plus.circle")!
-        //        setButtonImage(id: id)
-        cell.addButton.setBackgroundImage(buttonImage, for: .normal)
-        
-        
-        
-        cell.cellDelegate = self
-        cell.index = id
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomeItemTableViewCell
+        cell.title.text = item![indexPath.row].title
+        cell.date.text = item![indexPath.row].date
+        cell.icon.image = UIImage(named: item![indexPath.row].icon)
+        cell.checkmark.image = item![indexPath.row].isCompleted ? UIImage(systemName: "checkmark.square") : UIImage(systemName: "stop")
         return cell
     }
     
@@ -90,65 +81,8 @@ class ActiveListViewController: UIViewController,UITableViewDelegate, UITableVie
         return 72.0
     }
     
-    func setButtonImage(id: String) {
-        UNUserNotificationCenter.current().getPendingNotificationRequests(completionHandler: {requests -> () in
-            if requests.count > 0 {
-                for request in requests{
-                    print("koi")
-                    if request.identifier == id {
-                        print("hi")
-                        //                        self.buttonImage = UIImage(systemName: "minus.circle")!
-                        //                        break
-                        
-                        //                        let task = Task()
-                        
-                        
-                    }
-                }
-            }
-            
-        })
-    }
 }
 
-
-extension ActiveListViewController: AddButtonDelegate {
-    
-    func onclick(id: String) {
-        print(id)
-        if isGrantedNotificationAccess{
-            //set content
-            let content = UNMutableNotificationContent()
-            content.title = "My Notification Management Demo"
-            content.subtitle = "Timed Notification"
-            content.body = "Notification pressed"
-            content.categoryIdentifier = "message"
-            
-            //set trigger
-            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10.0, repeats: false)
-            //            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60.0, repeats: true)
-            
-            //Create the request
-            let request = UNNotificationRequest(
-                identifier: id,
-                content: content,
-                trigger: trigger
-            )
-            //Schedule the request
-            UNUserNotificationCenter.current().add(
-                request, withCompletionHandler: nil)
-            
-//            let task = self.realm.objects(Task
-//                .self).filter("nid == \(id)").first
-//            try! self.realm.write {
-//                task!.isCompleted = true
-//            }
-            
-            tableView.reloadData()
-        }
-        
-    }
-}
 
 extension ActiveListViewController: UNUserNotificationCenterDelegate {
     

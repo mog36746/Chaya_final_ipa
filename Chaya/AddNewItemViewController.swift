@@ -11,6 +11,16 @@ import UIKit
 import UserNotifications
 import RealmSwift
 
+extension UIViewController{
+    func hideKeyboardOnTap(){
+        let tap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tap)
+    }
+    @objc func dismissKeyboard(){
+        view.endEditing(true)
+    }
+}
+
 class AddNewItemViewController: UIViewController, UITextFieldDelegate {
     let realm = try! Realm()
     @IBOutlet weak var editText: UITextField!
@@ -69,13 +79,12 @@ class AddNewItemViewController: UIViewController, UITextFieldDelegate {
     @IBAction func onClickDone(_ sender: Any) {
         print("\(dueDate) \n \(reminder) \n \(editText.text!)")
         let id = incrementID()
-        scheduleNotification(id: id)
-        let nid = "\(format.string(from: date))-\(id)"
-        
+        scheduleNotification(id: id)        
         do {
             try realm.write {
                 let item = Item()
                 item.id = id
+                item.title = editText.text!
                 item.title = editText.text!
                 realm.add(item)
             }
@@ -127,7 +136,7 @@ class AddNewItemViewController: UIViewController, UITextFieldDelegate {
     }
     
     func incrementID() -> Int {
-        let id = (realm.objects(Task.self).max(ofProperty: "id") as Int? ?? 0) + 1
+        let id = (realm.objects(Item.self).max(ofProperty: "id") as Int? ?? 0) + 1
         return id
     }
 

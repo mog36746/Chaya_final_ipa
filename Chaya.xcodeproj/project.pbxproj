@@ -11,6 +11,7 @@
 		0D14C71A2456D855009D4E2F /* CustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14C7192456D855009D4E2F /* CustomeTableViewCell.swift */; };
 		0D806D1A244F7F8A0071E10A /* ActiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D806D19244F7F8A0071E10A /* ActiveListViewController.swift */; };
 		0D806D1C244F817D0071E10A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D806D1B244F817C0071E10A /* Item.swift */; };
+		0D9A322A245DFD40002A0082 /* CustomeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9A3229245DFD40002A0082 /* CustomeItemTableViewCell.swift */; };
 		0DB1C6DA244A853B005CD4B3 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB1C6D9244A853B005CD4B3 /* Onboarding.storyboard */; };
 		0DB1C6DC244A854F005CD4B3 /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1C6DB244A854F005CD4B3 /* OnboardingContentViewController.swift */; };
 		0DB1C6DE244A857A005CD4B3 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1C6DD244A857A005CD4B3 /* OnboardingPageViewController.swift */; };
@@ -20,16 +21,12 @@
 		0DCFAADD244D619900442AE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFAADC244D619900442AE6 /* HomeViewController.swift */; };
 		0DE9374E244921E900EC702B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9374D244921E900EC702B /* AppDelegate.swift */; };
 		0DE93750244921E900EC702B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9374F244921E900EC702B /* SceneDelegate.swift */; };
-		0DE93752244921E900EC702B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE93751244921E900EC702B /* ViewController.swift */; };
 		0DE93755244921E900EC702B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE93753244921E900EC702B /* Main.storyboard */; };
 		0DE937572449220000EC702B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE937562449220000EC702B /* Assets.xcassets */; };
 		0DE9375A2449220000EC702B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE937582449220000EC702B /* LaunchScreen.storyboard */; };
 		0DE937622449270000EC702B /* Catagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937612449270000EC702B /* Catagory.swift */; };
 		0DE937642449272B00EC702B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937632449272B00EC702B /* Task.swift */; };
 		0DE937662449275400EC702B /* IconTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937652449275400EC702B /* IconTableViewController.swift */; };
-		0DE937682449279600EC702B /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE937672449279600EC702B /* NewTaskViewController.swift */; };
-		0DE9376A244927F900EC702B /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE93769244927F900EC702B /* TasksTableViewController.swift */; };
-		0DE9376C2449282C00EC702B /* AddCatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9376B2449282C00EC702B /* AddCatagoryViewController.swift */; };
 		36B6977991577CA491B12B9F /* Pods_Chaya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EA24789010F3D1AC9FC076 /* Pods_Chaya.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +35,7 @@
 		0D14C7192456D855009D4E2F /* CustomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTableViewCell.swift; sourceTree = "<group>"; };
 		0D806D19244F7F8A0071E10A /* ActiveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveListViewController.swift; sourceTree = "<group>"; };
 		0D806D1B244F817C0071E10A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0D9A3229245DFD40002A0082 /* CustomeItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeItemTableViewCell.swift; sourceTree = "<group>"; };
 		0DB1C6D9244A853B005CD4B3 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		0DB1C6DB244A854F005CD4B3 /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
 		0DB1C6DD244A857A005CD4B3 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +46,6 @@
 		0DE9374A244921E900EC702B /* Chaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE9374D244921E900EC702B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DE9374F244921E900EC702B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DE93751244921E900EC702B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0DE93754244921E900EC702B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DE937562449220000EC702B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE937592449220000EC702B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,9 +53,6 @@
 		0DE937612449270000EC702B /* Catagory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagory.swift; sourceTree = "<group>"; };
 		0DE937632449272B00EC702B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		0DE937652449275400EC702B /* IconTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTableViewController.swift; sourceTree = "<group>"; };
-		0DE937672449279600EC702B /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
-		0DE93769244927F900EC702B /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
-		0DE9376B2449282C00EC702B /* AddCatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatagoryViewController.swift; sourceTree = "<group>"; };
 		5CFD03B94B3F45EDC63F7ED9 /* Pods-Chaya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaya.release.xcconfig"; path = "Target Support Files/Pods-Chaya/Pods-Chaya.release.xcconfig"; sourceTree = "<group>"; };
 		CC154C56730005C8295B0B9C /* Pods-Chaya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaya.debug.xcconfig"; path = "Target Support Files/Pods-Chaya/Pods-Chaya.debug.xcconfig"; sourceTree = "<group>"; };
 		D2EA24789010F3D1AC9FC076 /* Pods_Chaya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chaya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +93,6 @@
 			children = (
 				0DE9374D244921E900EC702B /* AppDelegate.swift */,
 				0DE9374F244921E900EC702B /* SceneDelegate.swift */,
-				0DE93751244921E900EC702B /* ViewController.swift */,
 				0DE93753244921E900EC702B /* Main.storyboard */,
 				0DE937562449220000EC702B /* Assets.xcassets */,
 				0DE937582449220000EC702B /* LaunchScreen.storyboard */,
@@ -107,10 +100,6 @@
 				0DE937612449270000EC702B /* Catagory.swift */,
 				0DE937632449272B00EC702B /* Task.swift */,
 				0D806D1B244F817C0071E10A /* Item.swift */,
-				0DE937652449275400EC702B /* IconTableViewController.swift */,
-				0DE937672449279600EC702B /* NewTaskViewController.swift */,
-				0DE93769244927F900EC702B /* TasksTableViewController.swift */,
-				0DE9376B2449282C00EC702B /* AddCatagoryViewController.swift */,
 				0DB1C6D9244A853B005CD4B3 /* Onboarding.storyboard */,
 				0DB1C6DB244A854F005CD4B3 /* OnboardingContentViewController.swift */,
 				0DB1C6DD244A857A005CD4B3 /* OnboardingPageViewController.swift */,
@@ -119,8 +108,10 @@
 				0D806D19244F7F8A0071E10A /* ActiveListViewController.swift */,
 				0D127EDC245AF4420020E3FF /* TaskListViewController.swift */,
 				0D14C7192456D855009D4E2F /* CustomeTableViewCell.swift */,
+				0D9A3229245DFD40002A0082 /* CustomeItemTableViewCell.swift */,
 				0DCA21D8245B20F80093155A /* NewTaskListViewController.swift */,
 				0DCA21DA245B27610093155A /* AddNewItemViewController.swift */,
+				0DE937652449275400EC702B /* IconTableViewController.swift */,
 			);
 			path = Chaya;
 			sourceTree = "<group>";
@@ -260,8 +251,6 @@
 			files = (
 				0D806D1A244F7F8A0071E10A /* ActiveListViewController.swift in Sources */,
 				0DE937662449275400EC702B /* IconTableViewController.swift in Sources */,
-				0DE937682449279600EC702B /* NewTaskViewController.swift in Sources */,
-				0DE93752244921E900EC702B /* ViewController.swift in Sources */,
 				0DE9374E244921E900EC702B /* AppDelegate.swift in Sources */,
 				0DE937642449272B00EC702B /* Task.swift in Sources */,
 				0DB1C6DC244A854F005CD4B3 /* OnboardingContentViewController.swift in Sources */,
@@ -269,10 +258,9 @@
 				0DE93750244921E900EC702B /* SceneDelegate.swift in Sources */,
 				0D14C71A2456D855009D4E2F /* CustomeTableViewCell.swift in Sources */,
 				0DB1C6E0244A8595005CD4B3 /* OnboardingViewController.swift in Sources */,
-				0DE9376A244927F900EC702B /* TasksTableViewController.swift in Sources */,
 				0D806D1C244F817D0071E10A /* Item.swift in Sources */,
 				0DE937622449270000EC702B /* Catagory.swift in Sources */,
-				0DE9376C2449282C00EC702B /* AddCatagoryViewController.swift in Sources */,
+				0D9A322A245DFD40002A0082 /* CustomeItemTableViewCell.swift in Sources */,
 				0DCFAADD244D619900442AE6 /* HomeViewController.swift in Sources */,
 				0D127EDD245AF4420020E3FF /* TaskListViewController.swift in Sources */,
 				0DCA21D9245B20F80093155A /* NewTaskListViewController.swift in Sources */,

@@ -54,11 +54,11 @@ extension TaskListViewController: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomeTableViewCell
         
         cell.titleLable.text = tasks![indexPath.row].name
-        cell.dateLable.text = "none"
+        cell.icon.image = UIImage(named: tasks![indexPath.row].icon)
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        72.0
+        return 56
     }
 }

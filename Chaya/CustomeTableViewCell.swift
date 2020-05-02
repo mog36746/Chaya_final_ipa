@@ -13,9 +13,9 @@ protocol AddButtonDelegate {
 class CustomeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLable: UILabel!
-    @IBOutlet weak var dateLable: UILabel!
     @IBOutlet weak var addButton: UIButton!
     
+    @IBOutlet weak var icon: UIImageView!
     var cellDelegate: AddButtonDelegate?
     var index: String?
     
